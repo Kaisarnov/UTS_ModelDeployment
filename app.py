@@ -7,7 +7,7 @@ import os
 
 model_path = 'model/model.pkl'
 
-@st.cache_resource(allow_output_mutation=True)
+@st.cache_resource()
 def load_model():
     with open(model_path, 'rb') as f:
         model = pickle.load(f)
