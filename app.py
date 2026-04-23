@@ -3,6 +3,8 @@ import pandas as pd
 import pickle
 import numpy as np
 import matplotlib.pyplot as plt
+import os
+os.system('pip install matplotlib')
 
 model_path = 'model/model.pkl'
 
